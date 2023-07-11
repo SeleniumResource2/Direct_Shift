@@ -18,14 +18,26 @@ describe("Job application validation", () => {
     return false;
   });
 
+  //Validation of successful job application by the candidate
+
   it("Validation of successful application for the job", () => {      
     teleHealthPg.applicationDetails()
     successPg.confirmationMsg()    
   }) 
 
+  //Validation of job application by the candidate on resubmission
+
   it("Validation for resubmission of job application", () => {      
     teleHealthPg.applicationDetails()
     successPg.alreadyAppliedMsg()    
+  })
+
+  //Validaiton of all the required fields and error messages on the job application page
+
+  it("Required field validation", () => {      
+    teleHealthPg.requiredFieldValidation()
+    successPg.alreadyAppliedMsg()       
   }) 
+  
 
 })

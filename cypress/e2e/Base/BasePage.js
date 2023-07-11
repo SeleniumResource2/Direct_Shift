@@ -5,7 +5,7 @@ class BasePage {
    }
 
    minPause() {
-      cy.wait(200)
+      cy.wait(5000)
    }
 
    isVisisible(selector) {
@@ -21,6 +21,7 @@ class BasePage {
    }
 
    type(selector, text) {
+      cy.get(selector).clear()
       cy.get(selector).type(text)
    }
 

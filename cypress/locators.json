@@ -1,4 +1,4 @@
-{
+{   
     "TeleHealthPage": {
         "jobTitle": "div#job_header h1",
         "applyHere" : "#apply_here",
@@ -16,7 +16,10 @@
         "captchaFrame" : "iframe[title='reCAPTCHA']",
         "captcha": "span.recaptcha-checkbox",
         "emailOption": "#user_email_optin",
-        "applyNow": "input#user_form_submit"      
+        "applyNow": "input#user_form_submit",
+        "captchaMsg" : "#application_result",
+        "information1" : "div.note div",
+        "information2" : "div.note div#note"
     },
     "SuccessPage":{
         "confirmation": ".note.primary",
