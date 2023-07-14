@@ -1,11 +1,11 @@
 class BasePage {
-   
+
    maxPause() {
-      cy.wait(10000)
+      cy.wait(2000)
    }
 
    minPause() {
-      cy.wait(5000)
+      cy.wait(500)
    }
 
    isVisisible(selector) {
@@ -55,6 +55,7 @@ class BasePage {
 
    iframeClick(frame, selector) {
       cy.get(frame).its('0.contentDocument.body').find(selector).click({force: true})
+      this.maxPause()
    }
 
    forceCheck(selector) {

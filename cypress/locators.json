@@ -1,7 +1,7 @@
-{   
+{
     "TeleHealthPage": {
         "jobTitle": "div#job_header h1",
-        "applyHere" : "#apply_here",
+        "applyHere": "#apply_here",
         "signIn": "a.sign_in_link",
         "share": "div#share",
         "firstname": "#user_first_name",
@@ -13,17 +13,16 @@
         "state": "#user_state",
         "occupation": "#user_occupation",
         "specialities": "#user_specialty",
-        "captchaFrame" : "iframe[title='reCAPTCHA']",
+        "captchaFrame": "iframe[title='reCAPTCHA']",
         "captcha": "span.recaptcha-checkbox",
         "emailOption": "#user_email_optin",
         "applyNow": "input#user_form_submit",
-        "captchaMsg" : "#application_result",
-        "information1" : "div.note div",
-        "information2" : "div.note div#note"
+        "captchaMsg": "#application_result",
+        "information1": "div.note div",
+        "information2": "div.note div#note"
     },
-    "SuccessPage":{
+    "SuccessPage": {
         "confirmation": ".note.primary",
         "reapply": "input[type='submit']"
-    }  
-
+    }
 }

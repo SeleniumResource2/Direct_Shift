@@ -36,5 +36,11 @@ Cypress.Commands.add("toolTipValidation", (Selector, attribute)=>{
       });         
 })
 
+const generateRandomEmail = () => {
+  const username = Math.random().toString(36).substring(2);
+  const domain = Math.random().toString(36).substring(2);
+  return `${username}@${domain}.com`;
+};
+
 
 
