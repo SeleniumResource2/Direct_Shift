@@ -11,10 +11,11 @@ Running Test:
     5. Provide the below command to execute in headless mode with browser name[eg. chrome]: npx cypress run --browser chrome
 
     Positive case:
-    1. Validated successfull job applicatoin
-    2. Validated all the mandatory fields
+    1. Validated successfull job application with api validation
+    2. Validated all the mandatory fields 
+    3. Validation done for the broken links on the page
 
     Negative case:
-    2. Validation done for resubmission of job application
+    4. Validation done for resubmission of job application with api validation
     
 
